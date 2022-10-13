@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* PROVA */
 .prova{
     border: 1px solid black;
 }
@@ -13,6 +15,7 @@
     width: min-content;
 }
 
+/* NAV BAR */
 .logo-bar{
     height: 40px;
     background-color: black;
@@ -42,6 +45,7 @@
     cursor: pointer;
 }
 
+/* STILE BUTTON */
 .button-full{
     border: 2px solid rgba(0, 0, 0, 0);
     padding: 5px;
@@ -64,4 +68,9 @@
 
 ul{
     list-style: none;
+}
+
+/* SEZIONE 1 */
+.section_1{
+    background-image: url('img/jumbo-bg.png');
 }
