@@ -6,24 +6,42 @@
 }
 
 /* PROVA */
+.largo{
+    width: 100vw !important;
+}
 .prova{
     border: 1px solid black;
 }
 
 .prova-2{
     border: 1px solid black;
-    width: min-content;
+    width: fit-content;
+}
+
+.prova-3{
+    border: 1px solid red;
+}
+
+.prova-4{
+    border: 1px solid white;
 }
 
 /* NAV BAR */
+
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
 .logo-bar{
     height: 40px;
     background-color: black;
 }
 
-.nav-bar{
+.nav_bar{
     height: 70px;
-    background-color: rgb(139, 117, 117);
+    background-color: salmon;
 }
 
 .nav_bar_li{
@@ -31,6 +49,7 @@
     border: 1px solid black;
     width: fit-content;
     font-weight: bold;
+    white-space: nowrap;
 }
 .nav_bar_li::after{
     content: '\F286';
@@ -46,7 +65,7 @@
 }
 
 /* STILE BUTTON */
-.button-full{
+.button_full{
     border: 2px solid rgba(0, 0, 0, 0);
     padding: 5px;
     padding: 2px;
@@ -54,11 +73,11 @@
     width: fit-content;
 }
 
-.button-full:hover{
+.button_full:hover{
     border-color: rgba(0, 0, 0, 1);
 }
 
-.button-content{
+.button_content{
     background-color: black;
     color: white;
     font-weight: bold;
@@ -68,9 +87,116 @@
 
 ul{
     list-style: none;
+    width: 100%;
+    padding: 2rem !important;
 }
 
-/* SEZIONE 1 */
-.section_1{
-    background-image: url('img/jumbo-bg.png');
+.button_red_full{
+    border-color: rgba(205, 61, 15, 0);
 }
+.button_red_full:hover{
+    border-color: rgba(205, 61, 15, 1);
+}
+.button_red_content{
+    background-color: rgb(205, 61, 15);
+}
+
+.button_blue_full{
+    border-color: rgba(45, 100, 230, 0);
+}
+.button_blue_full:hover{
+    border-color: rgba(45, 100, 230, 1);
+}
+.button_blue_content{
+    background-color: rgb(45, 100, 230);
+}
+
+.button_gray_full{
+    border-color: rgba(217, 218, 220, 0);
+}
+.button_gray_full:hover{
+    border-color: rgba(217, 218, 220, 1);
+}
+.button_gray_content{
+    background-color: rgb(217, 218, 220);
+}
+
+.button_white_full{
+    border-color: rgba(255, 255, 255, 0);
+}
+.button_white_full:hover{
+    border-color: rgba(255, 255, 255, 1);
+}
+.button_white_content{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    margin-top: 110px;
+}
+/* ROMPI IL CERCHIO */
+.section_1{
+    height: 675px;
+    background-image: url('img/jumbo-bg.png');
+    background-position: center;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+
+/* 5 ITEM RESPONSIVE */
+.item_card{
+    opacity: 75%;
+    border-bottom: 5px solid transparent;
+}
+.item_card:hover{
+    opacity: 100%;
+    border-bottom: 5px solid blue;
+}
+.selected_item{
+    border-bottom: 5px solid blue;
+}
+
+/* IT TAKES TWO */
+.section_3{
+    height: 956px;
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+
+/* 12 GIOCHI RESPONSIVE */
+.twelve-games{
+    background-color: rgba(31, 31, 31, 1);
+}
+
+/* PLAYSTATION PLUS */
+.play_plus{
+    background-color: rgba(190, 188, 187,1);
+}
+
+/* PLAYSTATION NOW */
+.play_now{
+    background-color: rgba(22, 28, 59 ,1);
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(0, 67, 156);
+}
+
+footer ul{
+    list-style: none;
+    color: white;
+    padding: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+footer li{
+    line-height: 2em;
+}
+
+.sie_logo{
+    width: 150px;
+}
+
