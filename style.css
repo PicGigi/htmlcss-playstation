@@ -6,7 +6,7 @@
 }
 
 /* PROVA */
-.largo{
+/* .largo{
     width: 100vw !important;
 }
 .prova{
@@ -24,7 +24,7 @@
 
 .prova-4{
     border: 1px solid white;
-}
+} */
 
 /* NAV BAR */
 
@@ -39,19 +39,39 @@ header{
     background-color: black;
 }
 
-.nav_bar{
+
+.navbar{
     height: 70px;
-    background-color: salmon;
+    background-color: rgb(255, 255, 255);
+}
+.dropdown{
+    position: static;
+}
+.dropdown-menu[data-bs-popper]{
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.dropdown-menu{
+    border: none;
+    border-radius: 0;
+}
+.dropdown-menu.show{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.navbar-collapse{
+    background-color: white;
+}
+.container-fluid{
+    padding-left: 0;
 }
 
-.nav_bar_li{
-    cursor: pointer;
-    border: 1px solid black;
-    width: fit-content;
-    font-weight: bold;
-    white-space: nowrap;
-}
-.nav_bar_li::after{
+
+/* CODICE PER FARE LA FRECCIETTA IN GIU' QUANDO SI APRE LA LISTA  (NON RIESCO A SOVRASCRIVERE L'AFTER DI BOOTSTRAP) */
+
+/* .dropdown-toggle::after{
     content: '\F286';
     font-family: bootstrap-icons;
     color: black;
@@ -59,10 +79,12 @@ header{
     font-weight: lighter;
 }
 
-.nav_bar_li:hover::after{
+.dropdown-toggle:(funzione toggle)::after{
     content: '\F282';
     cursor: pointer;
-}
+} */
+
+
 
 /* STILE BUTTON */
 .button_full{
@@ -71,6 +93,7 @@ header{
     padding: 2px;
     border-radius: 50px;
     width: fit-content;
+    height: fit-content;
 }
 
 .button_full:hover{
@@ -83,12 +106,6 @@ header{
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 50px;
-}
-
-ul{
-    list-style: none;
-    width: 100%;
-    padding: 2rem !important;
 }
 
 .button_red_full{
@@ -131,8 +148,11 @@ ul{
     background-color: rgb(255, 255, 255);
 }
 
+/* MAIN */
 main{
     margin-top: 110px;
+    height: calc(100vh - 110px);
+    overflow-y: auto;
 }
 /* ROMPI IL CERCHIO */
 .section_1{
@@ -142,6 +162,20 @@ main{
     padding-left: 3rem;
     font-weight: bold;
 }
+
+/* 6 GIOCHI RESPONSIVE */
+.card_content{
+    border: 2px solid rgba(0, 0, 255, 0);
+    padding: .3em;
+    border-radius: 15px;
+    transition: transform .5s;
+}
+
+.card_content:hover{
+    border: 2px solid rgba(0, 0, 255, 1);
+    transform: translateY(-15px);
+}
+
 
 /* 5 ITEM RESPONSIVE */
 .item_card{

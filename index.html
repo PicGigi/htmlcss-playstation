@@ -29,60 +29,201 @@
         </div>
 
         <!-- NAV BAR -->
-        <nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <img src="img/play_logo.svg" class="h-100">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <!-- DOVREI DARE CLASSE ROW A QUESTO DIV MA SE LO FACCIO SBALLA FUORI -->
-            <div class="nav_bar row">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                <!-- LOGO PLAYSTATION -->
-                <div class="prova col-1 h-100 text-center">
-                    <img src="img/play_logo.svg" class="h-100">
-                </div>
-
-                <!-- LISTA SINISTRA -->
-                <div class="prova col-6 h-100 d-none d-lg-flex">
-                    <ul class="prova-3 h-100 d-flex justify-content-between align-items-center flex-nowrap">
-                        <li class="nav_bar_li d-flex">
-                            <span>Giochi</span>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Giochi
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 5</a>
                         </li>
-                        <li class="nav_bar_li d-flex">
-                            <span>Hardware</span>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 4</a>
                         </li>
-                        <li class="nav_bar_li d-flex">
-                            <span>Servizi</span>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 3</a>
                         </li>
-                        <li class="nav_bar_li d-flex">
-                            <span>Novità</span>
-                        </li>
-                        <li class="nav_bar_li d-flex">
-                            <span>Fai acquisti</span>
-                        </li>
-                        <li class="nav_bar_li d-flex">
-                            <span>Novità</span> 
-                        </li>
+                        <li class="w-100"><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 3</a></li>                          
                     </ul>
-                </div>
+                    </li>
 
-                <!-- LISTA DESTRA -->
-                <div class="prova col-3 offset-2 h-100 d-none d-lg-flex">
-                    <ul class="prova-3 h-100 d-flex justify-content-between align-items-center flex-nowrap">
-                        <li class="nav_bar_li d-flex">
-                            <span>My PlayStation</span>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hardware
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 5</a>
                         </li>
-                        <li class="prova-2">
-                            <div class="button_full">
-                                <div class="button_content">
-                                    Accedi
-                                </div>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 4</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 3</a>
+                        </li>
+                        <li class="w-100"><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 3</a></li>                          
+                    </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servizi
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 5</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 4</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 3</a>
+                        </li>
+                        <li class="w-100"><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 3</a></li>                          
+                    </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Novità
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 5</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 4</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 3</a>
+                        </li>
+                        <li class="w-100"><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 3</a></li>                          
+                    </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fai acquisti
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 5</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 4</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 3</a>
+                        </li>
+                        <li class="w-100"><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 3</a></li>                          
+                    </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Supporto
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 5</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 4</a>
+                        </li>
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 3</a>
+                        </li>
+                        <li class="w-100"><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 1</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 2</a></li>
+                        <li><a class="dropdown-item w-100" href="#">Link 3</a></li>                          
+                    </ul>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav me-2 mb-2 mb-lg-0 text-center">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle ps-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        My PlayStation
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 5</a>
+                        </li>
+
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 4</a>
+                        </li>
+                        
+                        <li><a class="dropdown-item d-flex flex-column text-center" href="#">
+                            <img src="img/play-menu-ico.png">
+                            PlayStation 3</a>
+                        </li>
+                        </ul>
+                    </li>
+
+                    <li class="d-flex justify-content-center">
+                        <div class="button_full">
+                            <div class="button_content">
+                                Accedi
                             </div>
-                        </li>
-                        <li class="prova-2">
-                            <i class="bi bi-search fs-3"></i>
-                        </li>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="img/lens.svg" alt="">
+                    </li>
+
                     </ul>
+
                 </div>
-
-
             </div>
         </nav>
     </header>
@@ -91,7 +232,7 @@
     <main>
 
         <!-- ROMPI IL CERCHIO -->
-        <section class="section_1 d-flex">
+        <section class="section_1 d-flex mb-5">
             <div class="section_1_content prova-3 text-white col-10 col-lg-4 align-self-end">
                 <img src="img/returnal-hero-banner-logo.png" class="prova-4 img-fluid col-8 mb-5">
                 <h1 class="prova-4 mb-5">Rompi il cerchio</h1>
@@ -210,7 +351,7 @@
         </section>
 
         <!-- 12 GIOCHI RESPONSIVE -->
-        <div class="twelve-games d-flex flex-wrap cols-2 cols-sm-3 cols-lg-6 p-4">
+        <div class="twelve-games d-flex flex-wrap cols-2 cols-sm-3 cols-lg-6 p-4 py-5">
             <div class="col-6 col-sm-4 col-lg-2 p-2 g-2">
                 <div class="card_content">
                     <img src="img\tony-hawks-pro-skater-1-2-store-art.jpg" class="img-fluid rounded-4">
@@ -384,45 +525,46 @@
                 </div>
             </div>
         </section>
+
+        <!-- FOOTER -->
+        <footer class="d-flex flex-wrap pt-4 ps-4 text-white">
+            <div class="col-12 col-lg-6 pb-4">
+                <img src="img/ps-footer.svg" class="mb-4"><br>
+                <i class="bi bi-globe"></i>
+                <span>Country/Region: Italy</span>
+            </div>
+
+            <div class="col-12 col-lg-6 d-lg-flex justify-content-around mb-4">
+                <ul>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                </ul>
+                <ul>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                </ul>
+                <ul>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                    <li>Footer Link</li>
+                </ul>
+            </div>
+            
+            <div class="col-12 col-lg-6 mb-4">
+                <img src="img/sie-logo.svg" class="mb-4 sie_logo"><br>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio accusamus, laudantium perspiciatis ut soluta ex adipisci labore autem reprehenderit, molestiae veritatis, blanditiis doloremque nisi nostrum quos cupiditate harum ab!</span>
+            </div>
+        </footer>
     </main>
 
-    <!-- FOOTER -->
-    <footer class="d-flex flex-wrap pt-4 ps-4 text-white">
-        <div class="col-12 col-lg-6 pb-4">
-            <img src="img/ps-footer.svg" class="mb-4"><br>
-            <i class="bi bi-globe"></i>
-            <span>Country/Region: Italy</span>
-        </div>
-
-        <div class="col-12 col-lg-6 d-lg-flex justify-content-around mb-4">
-            <ul>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-            </ul>
-            <ul>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-            </ul>
-            <ul>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-                <li>Footer Link</li>
-            </ul>
-        </div>
-        
-        <div class="col-12 col-lg-6 mb-4">
-            <img src="img/sie-logo.svg" class="mb-4 sie_logo"><br>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio accusamus, laudantium perspiciatis ut soluta ex adipisci labore autem reprehenderit, molestiae veritatis, blanditiis doloremque nisi nostrum quos cupiditate harum ab!</span>
-        </div>
-    </footer>
 
 
     
